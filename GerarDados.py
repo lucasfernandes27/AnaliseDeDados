@@ -32,4 +32,9 @@ for _ in range(10):
 
 #criara data frame
 df_pessoas = pd.DataFrame(dados_pessoas)
+
 print(df_pessoas)
+
+print (df_pessoas.to_string())
+
+df_pessoas.to_csv('clientes.csv')
